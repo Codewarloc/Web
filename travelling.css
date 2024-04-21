@@ -1,0 +1,636 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+div.links{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transition:0.3s ease-in-out;
+}
+
+
+div.links.scrolled {
+    background-color: black; /* Change the background color here */
+}
+
+div.nav{
+   display: flex;
+    flex-direction: column;
+    background-image: url(../images/make-friends-travelling-1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.back{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+} 
+
+h1.heading{
+    color: white;
+    display: inline;
+    position: relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 10%;
+    font-style: italic;
+    top: 10px;
+}
+
+h1.head{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 24%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div.cont{
+    position: absolute;
+    top: 30px;
+    width: 1000px;
+    left: 23%;
+   
+}
+a.linkss{
+    color: black;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    position: relative;
+    left: 43%;
+    margin-left: 60px;
+
+}
+
+p.phead{
+    text-align: center;
+    color: white;
+    position: relative;
+    font-style: italic;
+    top: 29%;
+}
+
+button.click{
+    border-radius: 200px;
+    padding: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    border: none;
+    position: relative;
+    left: 46%; 
+    top: 34%;
+    transition: .6s ease-in-out;
+}
+
+.click:hover{
+    cursor: pointer;
+    transform: scale(112%);
+    transition: .6s ease-in-out;
+}
+
+
+p.Aboutp1{
+    color: goldenrod;
+    position: relative;
+    left: 10%;
+    top: 30px;
+    font-weight: bolder;
+}
+
+h1.abouth1{
+    left: 10%;
+    font-size: 36px;
+    position: relative;
+    width: 430px;
+    top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p.aboutp2{
+    left: 10%;
+    top:60px ;
+    position: relative;
+    font-size: 17px;
+    width: 600px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bolder;
+}
+
+p.about3{
+    left: 10%;
+    position: relative;
+    font-size: 17px;
+    width: 600px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bolder;
+    top: 70px;
+}
+
+div.first_row{
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+div.links{
+    height: 80px;
+    position: sticky;
+    top: 0px;
+}
+
+
+div.float1{
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+button.about{
+    padding: 15px;
+    border: none;
+    color: white;
+    background-color: goldenrod;
+    border-radius: 360px;
+    font-size: 12px;
+    position: relative;
+    left: 10%;
+    top: 100px;
+    transition: .7s ease-in-out;
+}
+
+.about:hover{
+    cursor: pointer;
+    transform: scale(111%);
+    transition: .7s ease-in-out;
+}
+
+img.imgabout{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    left: 55%;
+    top: 30px;
+}
+
+div.destination{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(1fr);
+    gap: 0px;
+    margin-top: 100px;
+    margin-left: 3%;
+    width: 100%;
+    height: 500px;
+}
+
+div.box1{
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/walk-across-the-Tower-Bridge-of-London.jpeg);
+    object-fit: cover;
+    background-position: center;
+    transition: .6s ease-in-out;
+    border-radius: 20px;
+}
+
+.box1:hover{
+    transform: scale(121%);
+    transition: .6s ease-in-out;
+    
+}
+
+div.contv{
+    position:absolute;
+    left: 10%;
+}
+
+div.box2{
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/x800-eiffel-tower-from-cruise.jpg.pagespeed.ic.fc26EJTZ0x.jpg);
+    object-fit: cover;
+    background-position: center;
+    transition: .6s ease-in-out;
+    position: relative;
+    border-radius: 20px;
+
+}
+
+.box2:hover{
+    transform: scale(121%);
+    transition: .6s ease-in-out;
+}
+
+div.box3{
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/Canada-tourist-places-to-visit-06.jpg);
+    object-fit: cover;
+    background-position: center;
+    transition: .6s ease-in-out;
+    border-radius: 20px;
+}
+
+
+.box3:hover{
+    transform: scale(121%);
+    transition: .6s ease-in-out;
+}
+
+
+div.box4{
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/London_Eye_-_tunliweb.no.jpeg);
+    object-fit: cover;
+    background-position: center;
+    border-radius: 20px;
+
+}
+
+
+.box4:hover{
+    transform: scale(121%);
+    transition: .6s ease-in-out;
+}
+
+div.backdrop{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+div.contv1{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+     padding: 10px;
+   
+}
+
+div.contv2{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 10px;
+}
+h1.place{
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    top: 130px;
+    color: white;
+}
+div.contv3{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+div.contv4{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+div.firstrow{
+    margin-top: 90px;
+    height: 700px;
+    display: grid;
+    position: relative;
+    left: 33px;
+    grid-template-columns:3;
+    grid-auto-flow: column;
+}
+div.card{
+    width: 430px;
+    height: 580px;
+     background-color: white;
+     border-radius: 20px;
+    position: relative;
+    left: 4%;
+}
+
+h1.tour{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+p.tourp{
+    text-align: center;
+    font-style: italic;
+    font-size: 19px;
+    position: relative;
+    top: 20px;
+    width: 500px;
+    left: 34%;
+}
+img.cardimg{
+    height: 300px;
+    object-fit: cover;
+    transition: .7s ease-in-out;
+
+}
+
+
+img.cardimg:hover{
+    transform: scale(121%);
+    transition: .7s ease-in-out;
+}
+
+div.imgcont{
+    width: 430px;
+    height: 300px;
+    overflow: hidden;
+}
+
+h2.cardh1{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-weight: lighter;
+}
+
+b{
+    position: relative;
+    left: 67px;
+    color: aquamarine;
+}
+
+p.superb{
+    color: goldenrod;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+
+
+p.cardp{
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    position: relative;
+    top: 80px;
+    left: 10px;
+}
+p.face{
+    position: relative;
+    top: 120px;
+}
+
+img.happy{
+    width: 40px;
+    height: 40px;
+}
+
+img.sad{
+    width: 40px;
+    height: 40px;
+}
+
+
+div.blog{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+h1.poph{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    position: relative;
+    left: 90px;
+    top: 70px;
+}
+
+p.popp{
+    color: rgba(0, 0, 0, 0.3);
+    width: 900px;
+    position: relative;
+    left: 90px;
+    top: 90px;
+}
+
+div.content{
+    position: relative;
+    top: 170px;
+    left: 140px;
+}
+
+h1.conth1 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    height: 20px;
+    box-shadow: 1px solid  rgb(192, 192, 192);
+    padding: 20px;
+    border-bottom: 0.5px solid black;
+    overflow: hidden;
+}
+
+.conth1:hover{
+    background-color: rgba(223, 222, 222, 0.247);
+    color: rgb(230, 86, 86);
+    cursor: pointer;
+ 
+}
+small{
+    position: relative;
+    left: 150px;
+}
+
+div.firstcol{
+    width: 500px;
+}
+
+hr.my{
+    width: 400px;
+    margin-top: 30px;
+    color: rgb(126, 125, 125);
+}
+
+hr.my , h1.conth1{
+    margin-top: 20px;
+}
+
+div.secondcol{
+    position: relative;
+    left:120px;
+    width: 500px;
+}
+
+div.content{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.parallax {
+    background-image: url('../images/mount.jpeg'); /* Replace with your background image */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+h1.insh1{
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(92, 92, 92);
+}
+
+p.insurp{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+div.insurance{
+    margin-top: 200px;
+    height: 120vh;
+}
+
+img.picimg{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+}
+
+div.pic{
+    display: grid;
+}
+
+
+div.picrow1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 150px;
+    margin-top: 90px;
+}
+
+
+div.picrow2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 580px;
+    margin-top: 90px;
+}
+
+
+div.picrow3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 990px;
+    margin-top: 90px;
+}
+
+h1.pich1{
+    font-size: 30px;
+    text-align: center;
+    width: fit-content;
+    font-weight: lighter;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+}
+
+p.picp1{
+    font-size: 19px;
+    color: rgb(167, 167, 167);
+    text-align: center;
+    width: fit-content;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+p.picp2{
+    font-size: 15px;
+    text-align: center;
+    width: 400px;
+    margin-top: 20px;
+}
+
+p.picp3{
+    margin-top: 20px;
+    font-weight: bolder;
+    color: rgb(1, 205, 212);
+}
+
+div.footer{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(5, 1, 20);
+}
+
+div.footer1{
+    position: relative;
+    left: 130px;
+    top: 90px;
+}
+h1.footerh1{
+    color: white;
+}
+
+p.touristp{
+    font-size: 18px;
+    width: 400px;
+    color: rgb(228, 222, 222);
+    margin-top: 50px;
+}
+img.spanimg{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 8px;
+}
+
+p.span{
+    color: white;
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
